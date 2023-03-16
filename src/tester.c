@@ -16,15 +16,16 @@ int	main(void)
 		print_sort_arr(arr, sizeof(arr) / sizeof(int), &bubble_sort);
 		break;
 	case 2:
-		printf("## bubble sort tester\n\n");
+		printf("## selection sort tester\n\n");
 		print_sort_arr(arr, sizeof(arr) / sizeof(int), &selection_sort);
+		break;
 	case 3:
-		printf("## bubble sort tester\n\n");
-		// print_sort_arr(arr, sizeof(arr) / sizeof(int), &selection_sort);
+		printf("## insertion sort tester\n\n");
+		print_sort_arr(arr, sizeof(arr) / sizeof(int), &insertion_sort);
 		break;
 	case 4:
-		printf("## bubble sort tester\n\n");
-		// print_sort_arr(arr, sizeof(arr) / sizeof(int), &selection_sort);
+		printf("## merge sort tester\n\n");
+		print_sort_arr(arr, sizeof(arr) / sizeof(int), &merge_sort);
 		break;
 	case 5:
 		printf("## bubble sort tester\n\n");
